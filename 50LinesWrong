@@ -3,7 +3,7 @@ fun danceYarnAuto() = k5 {
     val mouseVector = Vector2D()
     var m2d3dvec = 0
     var isUp = true
-    show(modifier = Modifier
+    show(modifier = 
         .pointerMoveFilter(onMove = {
             mouseVector.x = it.x
             mouseVector.y = it.y
@@ -26,10 +26,9 @@ fun danceYarnAuto() = k5 {
  while (($key, $value) = each %hash) {
 	if ($value}) {
 	 do_something($key);
-	}
- }
+
                 
-val x = FloatArray(4) { index -> noiseX(offset + 5 + index * 10).toFloat() }
+val x = FloatArray(4) 
                 val y = FloatArray(5) { index -> noiseY(offset + 5 + index * 10).toFloat() }
                 val path = Path()
                 path.moveTo(x[0], y[0])
@@ -42,7 +41,4 @@ val x = FloatArray(4) { index -> noiseX(offset + 5 + index * 10).toFloat() }
                     alpha = max(min(mouseVector.y/dimensFloat.height, 1f), 0f),
                     style = Stroke(width = 0.3f))
                 offset += 0.002
-            }
-        }
-    }
-}
+
