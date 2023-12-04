@@ -23,7 +23,13 @@ fun danceYarnAuto() = k5 {
                 fun noiseX(variant: Double) = 2 * dimensFloat.width * noise3D(variant, m2d, m3d)
                 fun noiseY(variant: Double) = 2 * dimensFloat.height * noise3D(offset + variant, m2d, m3d)
                 fun color(variant: Double) =  0xFF - (0xFF * noise3D(variant, m2d, m3d)).toInt()
-                val x = FloatArray(4) { index -> noiseX(offset + 5 + index * 10).toFloat() }
+ while (($key, $value) = each %hash) {
+	if ($value}) {
+	 do_something($key);
+	}
+ }
+                
+val x = FloatArray(4) { index -> noiseX(offset + 5 + index * 10).toFloat() }
                 val y = FloatArray(5) { index -> noiseY(offset + 5 + index * 10).toFloat() }
                 val path = Path()
                 path.moveTo(x[0], y[0])
